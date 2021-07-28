@@ -1,5 +1,5 @@
 /* Google font import */
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 /* common style */
 body {
@@ -11,6 +11,9 @@ header {
     background-color: #264653;
 }
 
+.font-w-medium {
+    font-weight: 600;
+}
 /* hero section style */
 .hero-section p {
     color: #e0e0e0;
@@ -22,7 +25,6 @@ header {
 .feature-bikes-section p,
 .feature-bikes-section hr {
     color: #e76f51;
-    font-weight: 600;
     margin-bottom: 0;
 }
 
@@ -38,4 +40,29 @@ header {
 }
 .img-grayscale {
     filter: grayscale(100%);
+}
+
+/* testimonial section */
+.testimonial-section .section-heading span:last-child {
+    color: #e76f51;
+}
+.testimonial-section .card {
+    padding: 40px 35px;
+}
+.testimonial-section .card .card-img-top {
+    width: 149px;
+    height: 149px;
+}
+.testimonial-section .card .card-text {
+    color: #6c6c6c;
+}
+.testimonial-section .card .rating i.fas,
+.testimonial-section .card .rating i.far {
+    color: #e77c40;
+    font-size: 18px;
+}
+
+/* faq-section style */
+.faq-section h1.section-heading > span {
+    color: #e76f51;
 }
