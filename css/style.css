@@ -18,3 +18,24 @@ header {
 .purchase-btn {
     background-color: #e76f51;
 }
+/* feature bikes style */
+.feature-bikes-section p,
+.feature-bikes-section hr {
+    color: #e76f51;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.feature-bikes-section hr {
+    width: 58px;
+    height: 2px;
+}
+
+.feature-bikes-section img {
+    width: 288px;
+    height: 243px;
+    max-width: 100%;
+}
+.img-grayscale {
+    filter: grayscale(100%);
+}
