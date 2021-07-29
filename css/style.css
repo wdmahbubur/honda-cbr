@@ -57,7 +57,14 @@ header {
 }
 
 /* why choose us style */
-
 .feature-box i {
     font-size: 2rem;
+}
+
+/* contact-us style */
+.contact-us i.fa-phone {
+    transform: rotate(90deg);
+}
+.contact-us .form-submit-btn {
+    background-color: #e76f51;
 }
