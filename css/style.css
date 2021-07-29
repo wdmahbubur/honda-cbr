@@ -6,15 +6,18 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-/* header style */
-header {
-    background-color: #264653;
-}
 .primary-color {
     color: #e76f51;
 }
 .font-w-medium {
     font-weight: 600;
+}
+/* header style */
+header {
+    background-color: #264653;
+}
+.login-btn {
+    background-color: #e76f51;
 }
 /* hero section style */
 .hero-section p {
@@ -67,4 +70,11 @@ header {
 }
 .contact-us .form-submit-btn {
     background-color: #e76f51;
+}
+
+/* Footer style */
+footer a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 24px;
 }
