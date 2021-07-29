@@ -41,7 +41,19 @@ header {
 .img-grayscale {
     filter: grayscale(100%);
 }
-
+/* Latest News */
+.latest-news .card-img-top {
+    width: 100%;
+    height: 256px;
+}
+.latest-news .read-more-btn-fill {
+    background-color: #e76f51;
+    color: #fff;
+}
+.latest-news .read-more-btn-solid {
+    border-color: #e76f51;
+    color: #e76f51;
+}
 /* testimonial section */
 .testimonial-section .card {
     padding: 40px 35px;
