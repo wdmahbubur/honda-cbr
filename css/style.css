@@ -10,7 +10,9 @@ body {
 header {
     background-color: #264653;
 }
-
+.primary-color {
+    color: #e76f51;
+}
 .font-w-medium {
     font-weight: 600;
 }
@@ -22,11 +24,6 @@ header {
     background-color: #e76f51;
 }
 /* feature bikes style */
-.feature-bikes-section p,
-.feature-bikes-section hr {
-    color: #e76f51;
-    margin-bottom: 0;
-}
 
 .feature-bikes-section hr {
     width: 58px;
@@ -43,9 +40,6 @@ header {
 }
 
 /* testimonial section */
-.testimonial-section .section-heading span:last-child {
-    color: #e76f51;
-}
 .testimonial-section .card {
     padding: 40px 35px;
 }
@@ -62,7 +56,8 @@ header {
     font-size: 18px;
 }
 
-/* faq-section style */
-.faq-section h1.section-heading > span {
-    color: #e76f51;
+/* why choose us style */
+
+.feature-box i {
+    font-size: 2rem;
 }
